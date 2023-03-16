@@ -37,7 +37,11 @@
 # 📖 TDD-Ruby <a name="about-project"></a>
 
 **tdd_ruby** is an educational project that we developed to learn more about test-driven development in software development process
-
+### Learning objectives
+- Write unit tests using Rspec.
+- Understand an existing codebase in a way that allows for adding tests.
+- Write Rspec unit tests with mocks.
+- Understand the TDD concept.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
