@@ -7,7 +7,8 @@ class Solver
     end
   end
 
-  def reverse
+  def reverse(word)
+    word.is_a?(String) ? word.reverse : 'Please enter a string'
   end
 
   def fizzbuzz
