@@ -18,9 +18,8 @@ class Solver
       'fizz'
     elsif number.modulo(5).zero?
       'buzz'
-    else 
+    else
       number.to_s
     end
   end
 end
-
