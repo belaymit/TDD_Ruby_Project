@@ -11,6 +11,16 @@ class Solver
     word.is_a?(String) ? word.reverse : 'Please enter a string'
   end
 
-  def fizzbuzz
+  def fizzbuzz(number)
+    if number.modulo(3).zero? && number.modulo(5).zero?
+      'fizzbuzz'
+    elsif number.modulo(3).zero?
+      'fizz'
+    elsif number.modulo(5).zero?
+      'buzz'
+    else 
+      number.to_s
+    end
   end
 end
+
